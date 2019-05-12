@@ -13,19 +13,19 @@ int main(void) {
     for (int i = 0; i < n; i++) {
         int m;
         cin >> m;
-        int o;
+        int l;
         
         for (int j = 0; j < m; j++) {
-            cin >> o;
-            a[i].push_back(o);
+            cin >> l;
+            a[i].push_back(l);
         }
     }
 
-    int r, s;
+    int z, w;
 
     for (int k = 1; k <= q; k++) {
-        cin >> r >> s;
-        cout << a[r][s] << endl;
+        cin >> z >> w;
+        cout << a[z][w] << endl;
     }
     
     return 0;
