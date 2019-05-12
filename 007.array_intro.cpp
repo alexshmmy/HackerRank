@@ -13,7 +13,6 @@ int main() {
     for (i = 0; i < n; i++)
         cin >> arr[i];
     
-
     for (j = n-1; j >= 0; j = j -1)
         cout << arr[j] << ' ';
     
