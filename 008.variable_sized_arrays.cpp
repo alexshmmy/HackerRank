@@ -19,7 +19,7 @@ int main(void) {
             cin >> o;
             a[i].push_back(o);
         }
-  }
+    }
 
     int r, s;
 
