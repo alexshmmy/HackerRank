@@ -33,8 +33,8 @@ int main(void) {
                 odd[i][j] = x[k];
 
             k++;
-      }
-   }
+        }
+    }
 
     // Print matrix even[4][4] to the screen
     cout << "\n\nEven Matrix :\n" << endl;
@@ -43,8 +43,8 @@ int main(void) {
         for (int j = 0; j<4; j++) {
             cout << setw(4)
                 << even[i][j];
-      }
-      cout << endl;
+        }
+        cout << endl;
     }
 
     // Print matrix odd[4][4] to the screen
