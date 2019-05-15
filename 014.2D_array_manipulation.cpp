@@ -1,5 +1,5 @@
 #include <iostream>
-#include <iomanip> 
+#include <iomanip>
 
 using namespace std;
 
@@ -36,30 +36,30 @@ int main(void) {
       }
    }
 
-   // Print matrix even[4][4] to the screen
-   cout << "\n\nEven Matrix :\n" << endl;
+    // Print matrix even[4][4] to the screen
+    cout << "\n\nEven Matrix :\n" << endl;
 
-   for (int i = 0; i < 4; i++) {
-      for (int j = 0; j<4; j++) {
-         cout << setw(4)
-              << even[i][j];
+    for (int i = 0; i < 4; i++) {
+        for (int j = 0; j<4; j++) {
+            cout << setw(4)
+                << even[i][j];
       }
       cout << endl;
-   }
+    }
 
-   // Print matrix odd[4][4] to the screen
-   cout << "\n\nOdd Matrix :\n" << endl;
+    // Print matrix odd[4][4] to the screen
+    cout << "\n\nOdd Matrix :\n" << endl;
 
     for(int i = 0; i < 4; i++) {
         for(int j = 0; j < 4; j++) {
          cout << setw(4)
               << odd[i][j];
-      }
-      cout << endl;
-   }
+        }
+        cout << endl;
+    }
 
-   cout << "\n"
+    cout << "\n"
         << endl;
 
-   return(0);
+    return(0);
 }
