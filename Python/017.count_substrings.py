@@ -1,4 +1,7 @@
 def count_substring(string, sub_string) :
+    '''A function that computes how many times a sub_string occur 
+    in a string'''
+    
     count = 0
 
     # compute the length of the strings
