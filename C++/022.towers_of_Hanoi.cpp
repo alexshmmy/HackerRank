@@ -20,8 +20,7 @@ int main(void) {
     return 0;
 }
 
-void towerOfHanoi(unsigned int n, char from_rod, char to_rod, char aux_rod)
-{
+void towerOfHanoi(unsigned int n, char from_rod, char to_rod, char aux_rod) {
     if (n == 1) {
         printf("\n Move disk 1 from rod %c to rod %c", from_rod, to_rod);
         return;
