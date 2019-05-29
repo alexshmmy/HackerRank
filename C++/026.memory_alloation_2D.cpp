@@ -39,7 +39,7 @@ void array1D_print(void) {
         cout << endl;
 
         // deallocate memory
-        delete[] A;
+        delete [] A;
     }
 }
 
@@ -62,5 +62,5 @@ void array2D_print(void) {
 	}
 
 	// deallocate memory
-	delete[] A;
+	delete [] A;
 }
